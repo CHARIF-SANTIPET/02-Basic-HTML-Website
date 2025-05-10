@@ -20,6 +20,11 @@ nav {
         margin: auto;
         a {
             margin-right: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: blue;
         }
     }
 }
@@ -42,6 +47,15 @@ nav {
 
 .experience-opensource {
     width: 50%;
+    article > a {
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }
+    article > a:hover {
+        font-size: 25px;
+        color: rgb(0, 0, 157);
+    }
 }
 .work-experience {
     background-color: rgb(213, 255, 255);
@@ -105,4 +119,13 @@ footer {
     text-align: center;
     padding: 50px;
     background-color: azure;
+}
+
+.contact-container {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    background-color: rgb(213, 255, 255);
+    width: 100%;
 }
