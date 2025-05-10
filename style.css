@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+}
+
+.nav-title {
+    display: inline;
+    margin-right: 800px;
+}
+
+nav {
+    background-color: rgb(213, 255, 255);
+    height: 35px;
+    white-space: nowrap;
+    div {
+        display: inline;
+        margin: auto;
+    }
+}
+.intro {
+    text-align: center;
+    padding: 150px;
+    background-color: azure;
+}
+
+.project {
+    background-color: rgb(213, 255, 255);
+    width: 25%;
+    padding: 20px;
+    ul {
+        display: block;
+        font-size: 15px;
+        margin: 15px;
+    }
+}
+
+.experience-opensource {
+    width: 50%;
+}
+.work-experience {
+    background-color: rgb(213, 255, 255);
+    height: 50%;
+    padding: 20px;
+}
+
+.opensource-work { 
+    background-color: rgb(213, 255, 255);
+    height: 50%;
+    padding: 20px;
+    
+}
+.education {
+    background-color: rgb(213, 255, 255);
+    width: 25%;
+    padding: 20px;
+    li {
+        margin-left: 20px;
+        white-space: nowrap;
+    }
+}
+
+.review {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: azure;
+}
+
+.review-container {
+    display: flex;
+    gap: 30px; ;
+    margin: auto;
+     justify-content: center;
+    article {
+        margin: 20px;
+        background-color: white;
+        width: 400px;
+        height: 200px;
+        border: solid;
+        border-radius: 50px;
+        padding: 25px;
+        white-space: normal;
+        font-size: 20px;
+        .name {
+            color: rgba(0, 0, 0, 0.427);
+        }
+    }
+}
+main {
+    display: flex;
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+}
