@@ -113,6 +113,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
+    background-color: rgb(213, 255, 255);
 }
 
 footer {
@@ -139,4 +140,31 @@ footer {
     p {
         font-size: 30px;
     }
+}
+
+.project-container {
+    margin: auto;
+    padding: 20px;
+    div {
+        gap: 10px;
+        display: flex;
+        blockquote {
+            width: 280px; 
+            height: 300px;
+            font-size: 30px;
+            text-align: center;
+            padding: 20px;
+            border: solid;
+            border-radius: 40px;
+            background-color: azure;
+            p {
+                font-size: 20px;
+                text-align:left;
+                text-indent: 15px;
+                text-align: justify;
+            }
+
+        }
+    }
+    
 }
