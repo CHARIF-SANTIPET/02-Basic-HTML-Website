@@ -7,16 +7,20 @@
 
 .nav-title {
     display: inline;
-    margin-right: 800px;
+    margin-right: 1000px;
 }
 
 nav {
     background-color: rgb(213, 255, 255);
     height: 35px;
     white-space: nowrap;
+    padding: 10px;
     div {
         display: inline;
         margin: auto;
+        a {
+            margin-right: 10px;
+        }
     }
 }
 .intro {
