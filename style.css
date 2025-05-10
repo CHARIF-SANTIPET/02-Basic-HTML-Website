@@ -129,3 +129,14 @@ footer {
     background-color: rgb(213, 255, 255);
     width: 100%;
 }
+
+.article-container {
+    background-color: rgb(213, 255, 255);
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding: 150px;
+    p {
+        font-size: 30px;
+    }
+}
